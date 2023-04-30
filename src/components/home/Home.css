@@ -1,0 +1,12 @@
+h1{
+    position:relative;
+    left:600px;
+    top:200px;
+}
+@media only screen and (max-width: 1024px){
+    h1{
+        position:relative;
+        left:180px;
+        top:200px;
+    }
+}

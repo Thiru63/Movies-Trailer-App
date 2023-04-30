@@ -3,6 +3,7 @@ import api from '../../api/axiosConfig';
 import {useParams} from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import ReviewForm from '../reviewForm/ReviewForm';
+import "./Reviews.css"
 
 import React from 'react'
 
@@ -43,7 +44,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews,removeMovieData}) => {
 
     }
 
-    if(!movie ) return <h1 style={{position:"relative",left:"500px",top:"200px"}}>...Loading</h1>
+    if(!movie ) return <h1>Loading...</h1>
 
   return (
     <Container>
